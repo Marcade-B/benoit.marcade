@@ -50,7 +50,7 @@ otoriButtonElement.on( "click", function() {
             let kuruAudioElement = $( "<audio controls style='display: none'><source></audio>" );
 
             kuruImgElement.attr( "src", "https://media.tenor.com/ldDoV7iwmkgAAAAj/kurukuru-kururing.gif" );
-            kuruAudioElement.attr( "src", "audio/kuru-kuru(2).mp3", "preload", "auto" );
+            kuruAudioElement.attr( "src", "audio/kuru-kuru.mp3", "preload", "auto" );
 
             h3Element.appendTo( ".kuru" );
             kuruImgElement.appendTo( ".kuru" );
