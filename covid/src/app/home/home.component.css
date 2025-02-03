@@ -1,0 +1,44 @@
+body {
+    background-color: #f0e9f8;
+}
+
+.luttons {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.protectButton {
+    border: none;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    color: white;
+    background-color: blueviolet;
+}
+
+.symptomes-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.diseases {
+    display: flex;
+    justify-content: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.disease {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
