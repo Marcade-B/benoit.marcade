@@ -1,0 +1,34 @@
+<div class="p-3">
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+          <form [formGroup]="carForm" (ngSubmit)="onSubmit()">
+            <div class="mb-3">
+              <label class="form-label">Brand</label>
+              <input class="form-control" formControlName="brand">
+              <span *ngIf="carForm.get('brand')?.invalid && carForm.get('brand')?.touched">
+                <span id="message-error"  class="text-danger"> La marque de la voiture est obligatoire !</span>
+              </span>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Model</label>
+              <input class="form-control" formControlName="model">
+              <span *ngIf="carForm.get('model')?.invalid && carForm.get('model')?.touched">
+                <span id="message-error"  class="text-danger"> Le model de la voiture est obligatoire !</span>
+              </span>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Color</label>
+              <input class="form-control" formControlName="color">
+              <span *ngIf="carForm.get('color')?.invalid && carForm.get('color')?.touched">
+                <span id="message-error" class="text-danger"> La couleur de la voiture est obligatoire !</span>
+              </span>
+            </div>
+            <button [disabled]="carForm.invalid" class="btn btn-success">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

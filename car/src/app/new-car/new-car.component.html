@@ -1,0 +1,12 @@
+<app-car-form
+  [car]="carSelected"
+  (addCar)="onAddCar($event)"
+>
+</app-car-form>
+<app-car-list
+  [cars]="carsLists"
+  (deleteCar)="onDeleteCar($event)"
+  (updateCar)="onUpdateCar($event)"
+  (searchCar)="onSearchCar($event)"
+>
+</app-car-list>
