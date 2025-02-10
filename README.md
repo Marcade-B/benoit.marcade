@@ -6,6 +6,6 @@ Création d'un site sur le covid via une image exemple donner en cours.
 
 ![images-exemples](./images/covid-exemple.png)
 
-<h1>Test</h1>
+<h1 display="flex" justify-content="center">Test</h1>
 
-<p>Je suis un test</p>
+<p justify-content="center">Je suis un test</p>
