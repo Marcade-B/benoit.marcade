@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime search</title>
+    <link rel="stylesheet" href="anime.css" type="text/css">
+    <script src="anime.js" defer></script>
+    <style>
+
+        .error {
+            font-weight: bold;
+            color: red;
+        }
+
+    </style>
+</head> 
+<body>
+
+    <div class="div">
+        
+        <h1>Search for animes</h1>
+        
+        <p class="error" style="display: none"></p>
+        
+        <form>
+            <input type="text" class="search" name="search" autofocus>
+            <button type="submit" class="submit">Search</button>
+            <div>
+                <input type="checkbox" class="checkbox"> NSFW
+            </div>
+        </form>
+    </div>
+
+    <ul id="animes"></ul>
+    
+</body>
+</html>

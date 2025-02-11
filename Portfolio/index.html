@@ -5,33 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="">Accueil</a>
+          <a class="navbar-brand" href="#">Accueil</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Mes Projets
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Covid</a></li>
-                  <li><a class="dropdown-item" href="#">Voitures</a></li>
-                  <li><a class="dropdown-item" href="#">Animés</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#projets">Mes Projets</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-      
+    <div class="bienvenue">
+        <h2>Bienvenue sur mon Portfolio!</h2>
+    </div>
+
+    <section class="profil">
+        <div class="profil-all">
+            <div class="profil-image">
+                <img src="assets/profil.JPG" alt="Photo de profil" width="200px">
+            </div>
+            <div class="profil-text">
+                <h3 style="font-weight: bold;">À propos</h3>
+                <div style="margin-left: 10px; width: 95%;">
+                    <p>Étudiant en 2ème année de Bachelor développement web et applications à l'<a href="https://www.ipi-ecoles.com/?utm_medium=cpc&utm_source=google&utm_term=ipi%20toulouse&utm_campaign=SE_MARQUE_IPI_INFORMATIQUE&hsa_acc=4037633273&hsa_cam=15893898693&hsa_grp=131043015526&hsa_ad=575297867918&hsa_src=g&hsa_tgt=kwd-301160902260&hsa_kw=ipi%20toulouse&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvFYURsG2PG7vPjofJZxO9kALywhvAogo2aEJeZDk3z34fiCS94w7oxoCvpYQAvD_BwE">IPI</a></p>
+                    <p>J'ai commencé le développement au Lycée Evariste de Parny, ce qui m'a tout de suite plu, j'ai donc décider de continuer mes études en développement web en France.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projets" id="projets">
+        <h3 class="section-title">Mes Projets</h3>
+        <div class="projets-all">
+            <div class="projet">
+              <a href="" style="text-decoration: none;"><h3>Covid</h3></a>
+                <img src="./assets/covid.png" alt="Photo du projet covid" width="600px" style="margin-top: 20px;">
+                <p style="margin-top: 20px; font-size: large;">Projet sur un site pour le Covid fait en cours dans lequel on peut voir une page d'accueil et aussi accéder aux pages symptômes, blog et contact via la navbar</p>
+                <div class="techno">
+                  <h4 style="margin-top: 30px; margin-bottom: 10px;">Technologie utilisées</h4>
+                  <p>
+                    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular Logo" height="26">
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Logo" height="26">
+                    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Logo" height="26">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Logo" height="26">
+                    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Logo" height="26">
+                  </p>
+                </div>
+            </div>
+            <div class="projet">
+              <a href="" style="text-decoration: none;"><h3>Voitures</h3></a>
+                <img src="./assets/voiture.png" alt="Photo du projet voitures" width="600px" style="margin-top: 20px;">
+                <p style="margin-top: 20px; font-size: large;">Projet sur les voitures</p>
+                <div class="techno">
+                  <h4 style="margin-top: 30px; margin-bottom: 10px;">Technologie utilisées</h4>
+                  <p>
+                    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular Logo" height="26">
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Logo" height="26">
+                    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Logo" height="26">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Logo" height="26">
+                    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Logo" height="26">
+                  </p>
+                </div>
+            </div>
+            <div class="projet">
+              <a href="" style="text-decoration: none;"><h3>Animés</h3></a>
+                <img src="./assets/anime.png" alt="Photo du projet animés" width="600px" style="margin-top: 20px;">
+                <p style="margin-top: 20px; font-size: large;">Projet sur les animés</p>
+                <div class="techno">
+                  <h4 style="margin-top: 30px; margin-bottom: 10px;">Technologie utilisées</h4>
+                  <p>
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Logo" height="26">
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Logo" height="26">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Logo" height="26">
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>

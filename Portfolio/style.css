@@ -1,0 +1,97 @@
+body {
+    padding-top: 80px;
+    background: linear-gradient(rgb(40, 40, 40) 50%, rgb(20, 20, 20));
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s ease-in-out; /* Animation fluide */
+}
+
+.bienvenue {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.section-title {
+    display: block; 
+    justify-content: start; 
+    font-weight: bold; 
+    color: white; 
+    background-color: rgb(30, 30, 30); 
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+
+.bienvenue h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.69);
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.profil-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border: solid black 1px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.69);
+}
+
+.profil-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.profil-image img {
+    border-radius: 20px;
+}
+
+.profil-text {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.projets {
+    margin-top: 30vh;
+    margin-left: 20px;
+    color: white;
+}
+
+.projets-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet {
+    margin-top: 50px;
+    width: 600px;
+}
+
