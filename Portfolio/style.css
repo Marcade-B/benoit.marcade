@@ -40,7 +40,7 @@ body {
     border: solid black 1px;
     border-radius: 20px;
     backdrop-filter: blur(6px);
-    background-color: rgba(255, 255, 255, 0.69);
+    background-color: rgba(255, 255, 255, 0.80);
 }
 
 .profil {
@@ -56,8 +56,7 @@ body {
     width: 600px;
     border: solid black 1px;
     border-radius: 20px;
-    backdrop-filter: blur(6px);
-    background-color: rgba(255, 255, 255, 0.69);
+    background-color: rgba(255, 255, 255, 0.80);
 }
 
 .profil-image {
