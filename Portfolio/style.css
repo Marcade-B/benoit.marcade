@@ -91,6 +91,10 @@ section {
     color: white;
 }
 
+.projets-all h3 {
+    color: white;
+}
+
 .projet {
     margin-top: 50px;
     width: 600px;
